@@ -10,6 +10,8 @@ alias preztoconfig="vim ~/.zpreztorc && source ~/.zshrc"
 alias wtf="~/go/bin/wtf"
 alias vimconfig="vim ~/.vimrc"
 
+function jerb() { rm -rf node_modules && yarn install && yarn "$@"}
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # pyenv configuration
