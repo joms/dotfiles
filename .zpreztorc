@@ -48,6 +48,7 @@ zstyle ':prezto:load' pmodule \
 
 # Set the query found color.
 zstyle ':prezto:module:autosuggestions:color' found ''
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#56c7fe,underline"
 
 #
 # Completions
